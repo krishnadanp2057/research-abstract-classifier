@@ -1,0 +1,89 @@
+{
+  "best": "Logistic Regression",
+  "labels": [
+    "Business",
+    "Science",
+    "Social Science"
+  ],
+  "n_total": 1500,
+  "n_train": 1200,
+  "n_test": 300,
+  "class_counts": {
+    "Social Science": 500,
+    "Science": 500,
+    "Business": 500
+  },
+  "results": [
+    {
+      "Model": "Logistic Regression",
+      "CV accuracy (mean)": 0.8458,
+      "CV std": 0.0147,
+      "Test accuracy": 0.87,
+      "Precision (macro)": 0.8714,
+      "Recall (macro)": 0.87,
+      "F1 (macro)": 0.8696
+    },
+    {
+      "Model": "Naive Bayes",
+      "CV accuracy (mean)": 0.8492,
+      "CV std": 0.0138,
+      "Test accuracy": 0.87,
+      "Precision (macro)": 0.8716,
+      "Recall (macro)": 0.87,
+      "F1 (macro)": 0.8694
+    },
+    {
+      "Model": "SVM (linear)",
+      "CV accuracy (mean)": 0.8467,
+      "CV std": 0.0148,
+      "Test accuracy": 0.8667,
+      "Precision (macro)": 0.8679,
+      "Recall (macro)": 0.8667,
+      "F1 (macro)": 0.8663
+    },
+    {
+      "Model": "Random Forest",
+      "CV accuracy (mean)": 0.8142,
+      "CV std": 0.0294,
+      "Test accuracy": 0.83,
+      "Precision (macro)": 0.8303,
+      "Recall (macro)": 0.83,
+      "F1 (macro)": 0.8281
+    },
+    {
+      "Model": "kNN",
+      "CV accuracy (mean)": 0.82,
+      "CV std": 0.0148,
+      "Test accuracy": 0.82,
+      "Precision (macro)": 0.8186,
+      "Recall (macro)": 0.82,
+      "F1 (macro)": 0.8189
+    },
+    {
+      "Model": "Decision Tree",
+      "CV accuracy (mean)": 0.6642,
+      "CV std": 0.0312,
+      "Test accuracy": 0.6533,
+      "Precision (macro)": 0.6539,
+      "Recall (macro)": 0.6533,
+      "F1 (macro)": 0.6536
+    }
+  ],
+  "confusion_matrix": [
+    [
+      81,
+      7,
+      12
+    ],
+    [
+      1,
+      93,
+      6
+    ],
+    [
+      8,
+      5,
+      87
+    ]
+  ]
+}
